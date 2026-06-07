@@ -1,4 +1,8 @@
 package Command;
 
-public class Tarefa {
+public interface Tarefa {
+
+    void executar();
+
+    void cancelar();
 }
